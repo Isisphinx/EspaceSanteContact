@@ -39,7 +39,7 @@ export default function SimpleList() {
                 </ListItem>
                 <ListItem button>
                     <ListItemIcon>
-                        <CallIcon /> 
+                        <CallIcon color="primary" /> 
                     </ListItemIcon>
                     <ListItemText primary="Call" />
                 </ListItem>
