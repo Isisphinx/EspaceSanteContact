@@ -1,5 +1,3 @@
-//Auteur : COUTEAU Thomas
-//le 28/06/21
 import * as React from 'react'
 //pour les composants Gatsby
 import { Link, useStaticQuery, graphql } from 'gatsby'
