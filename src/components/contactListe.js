@@ -9,7 +9,10 @@ import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/Inbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
 //pour les icons
-import CallIcon from '@material-ui/icons';
+import CallIcon from '@material-ui/icons/Call';
+import MailIcon from '@material-ui/icons/Mail';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import ForumIcon from '@material-ui/icons/Forum';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -27,27 +30,34 @@ export default function SimpleList() {
             <List component="nav" aria-label="main mailbox folders">
                 <ListItem button>
                     <ListItemIcon>
-                        <InboxIcon />
+                        <ForumIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Inbox" />
+                    <ListItemText
+                        primary="Chat"
+                        secondary="Essayer ça en premier ;-)"
+                    />
+                </ListItem>
+                <Divider />
+                <ListItem button>
+                    <ListItemIcon>
+                        <CallIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="09 70 40 80 09" />
                 </ListItem>
                 <ListItem button>
                     <ListItemIcon>
-                        <DraftsIcon />
+                        <MailIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Drafts" />
+                    <ListItemText primary="team@isis.care" />
                 </ListItem>
                 <ListItem button>
                     <ListItemIcon>
-                        <CallIcon /> 
+                        <LocationOnIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Call" />
-                </ListItem>
-            </List>
-            <Divider />
-            <List component="nav" aria-label="secondary mailbox folders">
-                <ListItem button>
-                    <ListItemText primary="Trash" />
+                    <ListItemText
+                        primary="Isisphinx"
+                        secondary="386 Avenue de Dunkerque 59130 Lambersart - France"
+                    />
                 </ListItem>
             </List>
         </div>
