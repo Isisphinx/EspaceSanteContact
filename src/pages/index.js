@@ -4,9 +4,15 @@ import * as React from "react"
 import Layout from '../components/layout'
 
 const IndexPage = () => (
-   <Layout>
-     <h1>EspaceSanteContact</h1>
-   </Layout>
-  )
+  <Layout>
+    <main>
+      <title>EspaceSanteContact</title>
+      <div>
+        <p>iadaizobzbdouazbdabdabdaozbdaizdbipazbd</p>
+      </div>
+    </main>
+  </Layout>
+
+)
 
 export default IndexPage

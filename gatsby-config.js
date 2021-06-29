@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "EspaceSanteContact",
+    title: "Espace Santé Contact",
   },
   plugins: ["gatsby-theme-material-ui"],
 };
