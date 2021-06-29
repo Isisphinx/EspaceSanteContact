@@ -1,6 +1,3 @@
-//Auteur : COUTEAU Thomas
-//le 29/06/21
-//Liste de contacts
 import * as React from "react"
 //Pour les composants MATERIAL-UI
 import { makeStyles } from '@material-ui/core/styles';
@@ -12,7 +9,7 @@ import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/Inbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
 
-const contactListe = makeStyles((theme) => ({
+const useStyles = makeStyles((theme) => ({
     root: {
       width: '100%',
       maxWidth: 360,
@@ -23,4 +20,35 @@ const contactListe = makeStyles((theme) => ({
   function ListItemLink(props) {
     return <ListItem button component="a" {...props} />;
   }
-export default contactListe
+  
+  export default function SimpleList() {
+    const classes = useStyles();
+  
+    return (
+      <div className={classes.root}>
+        <List component="nav" aria-label="main mailbox folders">
+          <ListItem button>
+            <ListItemIcon>
+              <InboxIcon />
+            </ListItemIcon>
+            <ListItemText primary="Inbox" />
+          </ListItem>
+          <ListItem button>
+            <ListItemIcon>
+              <DraftsIcon />
+            </ListItemIcon>
+            <ListItemText primary="Drafts" />
+          </ListItem>
+        </List>
+        <Divider />
+        <List component="nav" aria-label="secondary mailbox folders">
+          <ListItem button>
+            <ListItemText primary="Trash" />
+          </ListItem>
+          <ListItemLink href="#simple-list">
+            <ListItemText primary="Spam" />
+          </ListItemLink>
+        </List>
+      </div>
+    );
+  }
