@@ -1,0 +1,48 @@
+.container {
+    margin: auto;
+    max-width: auto;
+    font-family: sans-serif;
+   
+  }
+/*Pour le titre du site*/
+.site-title {
+  font-size: 30px;
+  color: red;
+  font-weight: 200;
+  background-color: cyan; /*pour delimiter la zone*/
+}
+/*Pour la division du haut
+.topDiv {
+  
+
+}*/
+/*Pour la division du milieu*/
+.middleDiv {
+  margin-right: 35%;
+  font-size: 30px;
+  background-color: yellowgreen;
+}
+
+
+  /*Pour les boutons de navigations
+  Lien*/
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+  .nav-link-item {
+    padding-right: 2rem;
+  }
+  /*Pour le texte des liens de navigations*/
+  .nav-link-text {
+    color: rgb(230, 84, 235);
+    text-decoration: none;
+    text-align: center;
+  }
+
+ /*Pour les en-têtes des pages web*/
+  .heading {
+    color: rgb(169, 29, 204);
+    background-color: firebrick; /*pour delimiter la zone*/
+  }
