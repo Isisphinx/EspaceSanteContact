@@ -41,9 +41,6 @@ export default function SimpleList() {
                 <ListItem button>
                     <ListItemText primary="Trash" />
                 </ListItem>
-                <ListItemLink href="#simple-list">
-                    <ListItemText primary="Spam" />
-                </ListItemLink>
             </List>
         </div>
     );

@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import Layout from '../components/layout'
 import SimpleList from '../components/contactListe'
 
@@ -8,11 +8,11 @@ const IndexPage = () => (
       <title>EspaceSanteContact</title>
       <div>
         <p>iadaizobzbdouazbdabdabdaozbdaizdbipazbd</p>
-          <SimpleList></SimpleList>
       </div>
+      <SimpleList/>
     </main>
   </Layout>
-
+  
 )
 
 
