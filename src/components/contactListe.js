@@ -9,7 +9,7 @@ import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/Inbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
 //pour les icons
-import CallIcon from '@material-ui/icons';
+import CallIcon from '@material-ui/icons/Call';
 
 const useStyles = makeStyles((theme) => ({
     root: {
