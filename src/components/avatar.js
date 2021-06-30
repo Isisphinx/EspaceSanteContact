@@ -26,7 +26,10 @@ export default function AlignItemsList() {
         <List className={classes.root}>
             <ListItem alignItems="flex-start">
                 <ListItemAvatar>
-                    <Avatar alt="Isisphinx" src="src/images/face.png" />
+                    <Avatar
+                        alt="Isisphinx"
+                        src="../images/face-small.jpg"
+                    />
                 </ListItemAvatar>
                 <ListItemText
                     primary="Team"
