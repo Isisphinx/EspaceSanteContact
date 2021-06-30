@@ -7,6 +7,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
+import faceSmall from '../images/face-small.jpg';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,7 +29,7 @@ export default function AlignItemsList() {
                 <ListItemAvatar>
                     <Avatar
                         alt="Isisphinx"
-                        src="../images/face-small.jpg"
+                        src={faceSmall}
                     />
                 </ListItemAvatar>
                 <ListItemText
