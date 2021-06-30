@@ -1,12 +1,12 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar';
-import Typography from '@material-ui/core/Typography';
-import faceSmall from '../images/face-small.jpg';
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import ListItemText from '@material-ui/core/ListItemText'
+import ListItemAvatar from '@material-ui/core/ListItemAvatar'
+import Avatar from '@material-ui/core/Avatar'
+import Typography from '@material-ui/core/Typography'
+import faceSmall from '../images/face-small.jpg'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -20,33 +20,33 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function AlignItemsList() {
-    const classes = useStyles();
+    const classes = useStyles()
 
     return (
         <List className={classes.root}>
-            <ListItem alignItems="flex-start">
+            <ListItem alignItems='flex-start'>
                 <ListItemAvatar>
                     <Avatar
-                        alt="Isisphinx"
+                        alt='Isisphinx'
                         src={faceSmall}
                     />
                 </ListItemAvatar>
                 <ListItemText
-                    primary="Team"
+                    primary='Team'
                     secondary={
                         <React.Fragment>
                             <Typography
-                                component="span"
-                                variant="body2"
+                                component='span'
+                                variant='body2'
                                 className={classes.inline}
-                                color="textPrimary"
+                                color='textPrimary'
                             >
                             </Typography>
-                            {"Contactez notre équipe"}
+                            {'Contactez notre équipe'}
                         </React.Fragment>
                     }
                 />
             </ListItem>
         </List>
-    );
+    )
 }
