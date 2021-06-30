@@ -19,7 +19,7 @@ export default function RecipeReviewCard() {
 
   return (
     <Card className={classes.root}>
-      <CardHeader avatar={<Avatar alt='Isisphinx' src={faceSmall} />} title='Isisphinx' subheader='Contactez notre équipe' />
+      <CardHeader avatar={<Avatar alt='Team' src={faceSmall} />} title='Team' subheader='Contactez notre équipe' />
     </Card>
   )
 }
