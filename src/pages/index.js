@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from '../components/layout'
 import SimpleList from '../components/contactListe'
+import AlignItemsList from "../components/avatar"
 
 const IndexPage = () => (
   <Layout>
@@ -9,6 +10,7 @@ const IndexPage = () => (
       <div>
         <p>iadaizobzbdouazbdabdabdaozbdaizdbipazbd</p>
       </div>
+      <AlignItemsList/>
       <SimpleList/>
     </main>
   </Layout>
