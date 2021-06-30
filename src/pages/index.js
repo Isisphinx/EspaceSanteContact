@@ -1,19 +1,18 @@
 import React from "react";
-import SimpleList from '../components/contactListe';
 import AlignItemsList from "../components/avatar";
 import ContactList from '../components/contactList';
 
 const IndexPage = () => (
 
-    <main>
-      <title>EspaceSanteContact</title>
-      <div>
-        <p>iadaizobzbdouazbdabdabdaozbdaizdbipazbd</p>
-      </div>
-      <AlignItemsList/>
-      <SimpleList/>
-      <ContactList />
-    </main>
+  <main>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.1formatik.com/images/favicon/favicon-16x16.png"></link>
+    <title>EspaceSanteContact</title>
+    <div>
+      <p>iadaizobzbdouazbdabdabdaozbdaizdbipazbd</p>
+    </div>
+    <AlignItemsList />
+    <ContactList />
+  </main>
 
 )
 
