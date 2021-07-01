@@ -39,7 +39,7 @@ export default function ContactList() {
           </ListItemIcon>
           <ListItemText primary='03 20 92 03 67' />
         </ListItem>
-        <ListItem button>
+        <ListItem button component='a' href='mailto:contact@espacesante.fr'>
           <ListItemIcon>
             <MailIcon />
           </ListItemIcon>
