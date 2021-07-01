@@ -8,9 +8,10 @@ const IndexPage = () => (
   <main>
     <Helmet>
       <link rel="icon" href={favicon} />
+      <title>EspaceSanteContact</title>
     </Helmet>
-    <title>EspaceSanteContact</title>
     <div>
+      <h1>EspaceSanteContact</h1>
       <p>iadaizobzbdouazbdabdabdaozbdaizdbipazbd</p>
     </div>
     
