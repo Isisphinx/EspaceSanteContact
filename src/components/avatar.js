@@ -8,7 +8,7 @@ import faceSmall from '../images/face-small.jpg'
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
-    maxWidth: '40ch',
+    maxWidth: 360,
     backgroundColor: theme.palette.background.paper,
   },
   avatar: {},
