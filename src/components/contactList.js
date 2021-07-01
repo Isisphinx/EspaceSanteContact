@@ -33,7 +33,7 @@ export default function ContactList() {
           <ListItemText primary='Chat' secondary='Essayer ça en premier ;-)' />
         </ListItem>
         <Divider />
-        <ListItem button>
+        <ListItem button component='a' href='tel:+33320920367'>
           <ListItemIcon>
             <CallIcon />
           </ListItemIcon>
