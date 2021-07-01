@@ -45,7 +45,7 @@ export default function ContactList() {
           </ListItemIcon>
           <ListItemText primary='contact@espacesante.fr' />
         </ListItem>
-        <ListItem button>
+        <ListItem button component='a' href='https://goo.gl/maps/xqZPLa28KxB2'>
           <ListItemIcon>
             <LocationOnIcon />
           </ListItemIcon>
