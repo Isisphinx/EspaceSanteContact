@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
   avatar: {},
 }))
 
-export default function RecipeReviewCard() {
+export default function IsisCard() {
   const classes = useStyles()
 
   return (

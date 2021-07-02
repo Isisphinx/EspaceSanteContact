@@ -1,5 +1,5 @@
 import React from 'react'
-import RecipeReviewCard from '../components/avatar'
+import IsisCard from '../components/avatar'
 import favicon from '../images/icon.png'
 import Helmet from 'react-helmet'
 import h2 from '../components/style.css'
@@ -11,7 +11,7 @@ const IndexPage = () => (
       <title>EspaceSanteContact</title>
     </Helmet>
     <h2 className={h2}>EspaceSanteContact</h2>
-    <RecipeReviewCard />
+    <IsisCard />
   </main>
 )
 
