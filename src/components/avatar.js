@@ -4,6 +4,7 @@ import Card from '@material-ui/core/Card'
 import CardHeader from '@material-ui/core/CardHeader'
 import Avatar from '@material-ui/core/Avatar'
 import faceSmall from '../images/face-small.jpg'
+import ContactList from './contactList'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,6 +23,7 @@ export default function RecipeReviewCard() {
   return (
     <Card className={classes.root}>
       <CardHeader avatar={<Avatar alt='Team' src={faceSmall} />} title='Team' subheader='Contactez notre équipe' />
-    </Card>
+    </Card> 
+    <ContactList />
   )
 }

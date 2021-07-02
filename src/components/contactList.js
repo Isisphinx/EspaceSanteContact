@@ -9,7 +9,6 @@ import CallIcon from '@material-ui/icons/Call'
 import MailIcon from '@material-ui/icons/Mail'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
 import ForumIcon from '@material-ui/icons/Forum'
-import RecipeReviewCard from './avatar'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,7 +24,6 @@ export default function ContactList() {
   return (
     <div className={classes.root}>
       <List component='nav' aria-label='main mailbox folders'>
-        <RecipeReviewCard />
         <ListItem button>
           <ListItemIcon>
             <ForumIcon />
