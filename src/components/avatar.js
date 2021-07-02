@@ -10,9 +10,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
     maxWidth: 360,
-    borderRadius:0,
+    borderRadius:5,
     borderWidth: 0,
     backgroundColor: theme.palette.background.paper,
+    marginLeft: '37%',
   },
   avatar: {},
 }))
