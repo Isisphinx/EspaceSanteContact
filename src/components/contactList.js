@@ -8,47 +8,36 @@ import CallIcon from '@material-ui/icons/Call'
 import MailIcon from '@material-ui/icons/Mail'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
 import ForumIcon from '@material-ui/icons/Forum'
-import { createMuiTheme, ThemeProvider } from '@material-ui/core'
-
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: '#c8b48c'
-    }
-  }
-})
 
 export default function ContactList() {
 
   return (
-    <ThemeProvider theme={theme}>
-      <List component='nav' aria-label='main mailbox folders'>
-        <ListItem button>
-          <ListItemIcon>
-            <ForumIcon color="primary" />
-          </ListItemIcon>
-          <ListItemText primary='Chat' secondary='Essayer ça en premier ;-)' />
-        </ListItem>
-        <Divider />
-        <ListItem button component='a' href='tel:+33320920367'>
-          <ListItemIcon>
-            <CallIcon color="primary" />
-          </ListItemIcon>
-          <ListItemText primary='03 20 92 03 67' />
-        </ListItem>
-        <ListItem button component='a' href='mailto:contact@espacesante.fr'>
-          <ListItemIcon>
-            <MailIcon color="primary" />
-          </ListItemIcon>
-          <ListItemText primary='contact@espacesante.fr' />
-        </ListItem>
-        <ListItem button component='a' href='https://goo.gl/maps/xqZPLa28KxB2'>
-          <ListItemIcon>
-            <LocationOnIcon color="primary" />
-          </ListItemIcon>
-          <ListItemText primary='Espace Santé' secondary='386 Avenue de Dunkerque 59130 Lambersart - France' />
-        </ListItem>
-      </List>
-    </ThemeProvider>
+    <List component='nav' aria-label='main mailbox folders'>
+      <ListItem button>
+        <ListItemIcon>
+          <ForumIcon color='primary' />
+        </ListItemIcon>
+        <ListItemText primary='Chat' secondary='Essayer ça en premier ;-)' />
+      </ListItem>
+      <Divider />
+      <ListItem button component='a' href='tel:+33320920367'>
+        <ListItemIcon>
+          <CallIcon color='primary' />
+        </ListItemIcon>
+        <ListItemText primary='03 20 92 03 67' />
+      </ListItem>
+      <ListItem button component='a' href='mailto:contact@espacesante.fr'>
+        <ListItemIcon>
+          <MailIcon color='primary' />
+        </ListItemIcon>
+        <ListItemText primary='contact@espacesante.fr' />
+      </ListItem>
+      <ListItem button component='a' href='https://goo.gl/maps/xqZPLa28KxB2'>
+        <ListItemIcon>
+          <LocationOnIcon color='primary' />
+        </ListItemIcon>
+        <ListItemText primary='Espace Santé' secondary='386 Avenue de Dunkerque 59130 Lambersart - France' />
+      </ListItem>
+    </List>
   )
 }
