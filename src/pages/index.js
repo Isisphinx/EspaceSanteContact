@@ -2,6 +2,7 @@ import React from 'react'
 import IsisCard from '../components/avatar'
 import favicon from '../images/icon.png'
 import Helmet from 'react-helmet'
+import IsisAppBar from '../components/appBar'
 
 const IndexPage = () => (
   <main>
@@ -9,7 +10,7 @@ const IndexPage = () => (
       <link rel='icon' href={favicon} />
       <title>EspaceSanteContact</title>
     </Helmet>
-    <h2>EspaceSanteContact</h2>
+    <IsisAppBar />
     <IsisCard />
   </main>
 )
