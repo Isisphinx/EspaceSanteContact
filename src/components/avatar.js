@@ -16,6 +16,10 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: '37%',
   },
   avatar: {},
+  large: {
+    width: theme.spacing(9),
+    height: theme.spacing(9),
+  },
 }))
 
 export default function IsisCard() {
@@ -23,7 +27,7 @@ export default function IsisCard() {
 
   return (
     <Card className={classes.root}>
-      <CardHeader avatar={<Avatar alt='Team' src={faceSmall} />} title='Team' subheader='Contactez notre équipe' />
+      <CardHeader avatar={<Avatar alt='Team' src={faceSmall} className={classes.large} />} title='Team' subheader='Contactez notre équipe' />
       <ContactList />
     </Card> 
   )
