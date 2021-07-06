@@ -1,17 +1,17 @@
 import React from 'react'
-import Helmet from 'react-helmet'
-import AlignItemsList from '../components/avatar'
-import ContactList from '../components/contactList'
+import IsisCard from '../components/avatar'
 import favicon from '../images/icon.png'
+import Helmet from 'react-helmet'
+import h2 from '../components/style.css'
 
 const IndexPage = () => (
   <main>
-    <title>EspaceSanteContact</title>
     <Helmet>
       <link rel='icon' href={favicon} />
+      <title>EspaceSanteContact</title>
     </Helmet>
-    <AlignItemsList />
-    <ContactList />
+    <h2 className={h2}>EspaceSanteContact</h2>
+    <IsisCard />
   </main>
 )
 

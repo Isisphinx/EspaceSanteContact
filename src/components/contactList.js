@@ -1,5 +1,4 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemIcon from '@material-ui/core/ListItemIcon'
@@ -9,47 +8,47 @@ import CallIcon from '@material-ui/icons/Call'
 import MailIcon from '@material-ui/icons/Mail'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
 import ForumIcon from '@material-ui/icons/Forum'
+import { createMuiTheme, ThemeProvider } from '@material-ui/core'
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: '100%',
-    maxWidth: 360,
-    backgroundColor: theme.palette.background.paper,
-  },
-}))
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#c8b48c'
+    }
+  }
+})
 
 export default function ContactList() {
-  const classes = useStyles()
 
   return (
-    <div className={classes.root}>
+    <ThemeProvider theme={theme}>
       <List component='nav' aria-label='main mailbox folders'>
         <ListItem button>
           <ListItemIcon>
-            <ForumIcon />
+            <ForumIcon color="primary" />
           </ListItemIcon>
           <ListItemText primary='Chat' secondary='Essayer ça en premier ;-)' />
         </ListItem>
         <Divider />
-        <ListItem button>
+        <ListItem button component='a' href='tel:+33320920367'>
           <ListItemIcon>
-            <CallIcon />
+            <CallIcon color="primary" />
           </ListItemIcon>
           <ListItemText primary='03 20 92 03 67' />
         </ListItem>
-        <ListItem button>
+        <ListItem button component='a' href='mailto:contact@espacesante.fr'>
           <ListItemIcon>
-            <MailIcon />
+            <MailIcon color="primary" />
           </ListItemIcon>
           <ListItemText primary='contact@espacesante.fr' />
         </ListItem>
-        <ListItem button>
+        <ListItem button component='a' href='https://goo.gl/maps/xqZPLa28KxB2'>
           <ListItemIcon>
-            <LocationOnIcon />
+            <LocationOnIcon color="primary" />
           </ListItemIcon>
           <ListItemText primary='Espace Santé' secondary='386 Avenue de Dunkerque 59130 Lambersart - France' />
         </ListItem>
       </List>
-    </div>
+    </ThemeProvider>
   )
 }
