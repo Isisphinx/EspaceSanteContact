@@ -10,7 +10,7 @@ const IndexPage = () => (
       <link rel='icon' href={favicon} />
       <title>EspaceSanteContact</title>
     </Helmet>
-    <IsisAppBar  />
+    <IsisAppBar />
     <IsisCard />
   </main>
 )
