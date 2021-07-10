@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import CardHeader from '@material-ui/core/CardHeader'
 import Avatar from '@material-ui/core/Avatar'
-import faceSmall from '../images/face-small.jpg'
+import faceSmall from '../images/Logo.svg'
 import ContactList from './contactList'
 
 const useStyles = makeStyles((theme) => ({
