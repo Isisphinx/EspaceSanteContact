@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function IsisAppBar() {
+export default function EspaceSanteAppBar() {
   const classes = useStyles()
 
   return (
