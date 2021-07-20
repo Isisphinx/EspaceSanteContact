@@ -13,7 +13,6 @@ const useStyles = makeStyles((theme) => ({
     borderRadius:5,
     borderWidth: 0,
     backgroundColor: theme.palette.background.paper,
-    marginLeft: '37%',
   },
   avatar: {},
   large: {
@@ -22,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function IsisCard() {
+export default function EspaceSanteCard() {
   const classes = useStyles()
 
   return (
