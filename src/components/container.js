@@ -7,7 +7,7 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="xs" marginLeft="auto">
+      <Container maxWidth="xs">
         <EspaceSanteCard />  
       </Container>
     </React.Fragment>
