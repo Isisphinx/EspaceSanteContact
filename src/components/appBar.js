@@ -14,9 +14,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     paddingLeft: 30,
     paddingTop: 15,
-    color: '#b0b1b2',
+    color: '#FFFFFF',
     height: 65,
-
   },
 }))
 
@@ -27,7 +26,7 @@ export default function EspaceSanteAppBar() {
     <div className={classes.root}>
       <AppBar position='static'>
           <Typography variant='h6' fontWeight="fontWeightLight" fontFamily="fontFamily" className={classes.title}>
-            EspaceSanteContact
+            Espace Santé
           </Typography>
       </AppBar>
     </div>
