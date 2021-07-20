@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import CardHeader from '@material-ui/core/CardHeader'
 import Avatar from '@material-ui/core/Avatar'
-import faceSmall from '../images/face-small.jpg'
+import Logo from '../images/logo_esc.png'
 import ContactList from './contactList'
 
 const useStyles = makeStyles((theme) => ({
@@ -17,8 +17,8 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {},
   large: {
-    width: theme.spacing(9),
-    height: theme.spacing(9),
+    width: theme.spacing(11),
+    height: theme.spacing(11),
   },
 }))
 
@@ -27,7 +27,7 @@ export default function IsisCard() {
 
   return (
     <Card className={classes.root}>
-      <CardHeader avatar={<Avatar alt='Team' src={faceSmall} className={classes.large} />} title='Team' subheader='Contactez notre équipe' />
+      <CardHeader avatar={<Avatar alt='Team' src={Logo} className={classes.large} />} title='Team' subheader='Contactez notre équipe' />
       <ContactList />
     </Card> 
   )

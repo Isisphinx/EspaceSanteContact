@@ -1,6 +1,6 @@
 import React from 'react'
 import IsisCard from '../components/avatar'
-import favicon from '../images/icon.png'
+import favicon from '../images/favicon.png'
 import Helmet from 'react-helmet'
 import IsisAppBar from '../components/appBar'
 
