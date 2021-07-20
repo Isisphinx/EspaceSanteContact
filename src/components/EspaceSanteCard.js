@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import CardHeader from '@material-ui/core/CardHeader'
 import Avatar from '@material-ui/core/Avatar'
-import Logo from '../images/logo_esc.png'
+import EspaceSanteIcon from '../components/svg'
 import ContactList from './contactList'
 
 const useStyles = makeStyles((theme) => ({
@@ -26,7 +26,7 @@ export default function EspaceSanteCard() {
 
   return (
     <Card className={classes.root}>
-      <CardHeader avatar={<Avatar alt='Team' src={Logo} className={classes.large} />} title='Team' subheader='Contactez notre équipe' />
+      <CardHeader avatar={<Avatar alt='Team' src={EspaceSanteIcon} className={classes.large} />} title='Team' subheader='Contactez notre équipe' />
       <ContactList />
     </Card> 
   )
