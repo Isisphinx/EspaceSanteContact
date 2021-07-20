@@ -1,8 +1,8 @@
 import React from 'react'
-import IsisCard from '../components/avatar'
+import EspaceSanteCard from '../components/EspaceSanteCard'
 import favicon from '../images/favicon.png'
 import Helmet from 'react-helmet'
-import IsisAppBar from '../components/appBar'
+import EspaceSanteAppBar from '../components/appBar'
 
 const IndexPage = () => (
   <main>
@@ -10,8 +10,8 @@ const IndexPage = () => (
       <link rel='icon' href={favicon} />
       <title>EspaceSanteContact</title>
     </Helmet>
-    <IsisAppBar />
-    <IsisCard />
+    <EspaceSanteAppBar />
+    <EspaceSanteCard />
   </main>
 )
 

@@ -8,7 +8,6 @@ import CallIcon from '@material-ui/icons/Call'
 import MailIcon from '@material-ui/icons/Mail'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
 import ForumIcon from '@material-ui/icons/Forum'
-import ScreenShareIcon from '@material-ui/icons/ScreenShare'
 
 export default function ContactList() {
   return (
