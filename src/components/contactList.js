@@ -38,12 +38,6 @@ export default function ContactList() {
         </ListItemIcon>
         <ListItemText primary='Espace Santé' secondary='386 Avenue de Dunkerque 59130 Lambersart - France' />
       </ListItem>
-      <ListItem button component='a' href='https://www.898.tv/isisqs'>
-        <ListItemIcon>
-          <ScreenShareIcon color='primary' />
-        </ListItemIcon>
-        <ListItemText />
-      </ListItem>
     </List>
   )
 }
