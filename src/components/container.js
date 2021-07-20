@@ -5,11 +5,8 @@ import EspaceSanteCard from '../components/EspaceSanteCard'
 
 export default function SimpleContainer() {
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="xs">
+      <Container maxWidth="sm">
         <EspaceSanteCard />  
       </Container>
-    </React.Fragment>
   );
 }
