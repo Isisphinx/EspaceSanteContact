@@ -9,10 +9,14 @@ import MailIcon from '@material-ui/icons/Mail'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
 import ForumIcon from '@material-ui/icons/Forum'
 
+function btnChat(){
+  window.$chatwoot.toggle();
+}
+
 export default function ContactList() {
   return (
     <List component='nav' aria-label='main mailbox folders'>
-      <ListItem button>
+      <ListItem button component='a' href='#' onClick={btnChat}>
         <ListItemIcon>
           <ForumIcon color='primary' />
         </ListItemIcon>
