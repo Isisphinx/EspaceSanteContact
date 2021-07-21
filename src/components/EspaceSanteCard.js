@@ -26,7 +26,7 @@ export default function EspaceSanteCard() {
 
   return (
     <Card className={classes.root}>
-      <CardHeader avatar={<Avatar alt='EspaceSante' src={Logo} className={classes.large} />} h1='Contactez notre équipe' />
+      <CardHeader avatar={<Avatar alt='EspaceSante' src={Logo} className={classes.large} />} h4='Contactez notre équipe' />
       <ContactList />
     </Card> 
   )
