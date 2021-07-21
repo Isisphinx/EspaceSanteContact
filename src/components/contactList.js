@@ -20,7 +20,7 @@ export default function ContactList() {
         <ListItemIcon>
           <ForumIcon color='primary' />
         </ListItemIcon>
-        <ListItemText primary='Chat' secondary='Essayer ça en premier ;-)' />
+        <ListItemText primary='Chat' />
       </ListItem>
       <Divider />
       <ListItem button component='a' href='tel:+33320920367'>
