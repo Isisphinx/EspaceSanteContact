@@ -16,7 +16,7 @@ function btnChat(){
 export default function ContactList() {
   return (
     <List component='nav' aria-label='main mailbox folders'>
-      <ListItem button component='a' href='#' onClick={btnChat}>
+      <ListItem button onClick={btnChat}>
         <ListItemIcon>
           <ForumIcon color='primary' />
         </ListItemIcon>
