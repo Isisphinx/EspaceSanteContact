@@ -9,8 +9,8 @@ import MailIcon from '@material-ui/icons/Mail'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
 import ForumIcon from '@material-ui/icons/Forum'
 
-function btnChat(){
-  window.$chatwoot.toggle();
+function btnChat() {
+  window.$chatwoot.toggle()
 }
 
 export default function ContactList() {
@@ -23,19 +23,19 @@ export default function ContactList() {
         <ListItemText primary='Chat' />
       </ListItem>
       <Divider />
-      <ListItem button component='a' href='tel:+33320920367'>
+      <ListItem button href='tel:+33320920367'>
         <ListItemIcon>
           <CallIcon color='primary' />
         </ListItemIcon>
         <ListItemText primary='03 20 92 03 67' />
       </ListItem>
-      <ListItem button component='a' href='mailto:contact@espacesante.fr'>
+      <ListItem button href='mailto:contact@espacesante.fr'>
         <ListItemIcon>
           <MailIcon color='primary' />
         </ListItemIcon>
         <ListItemText primary='contact@espacesante.fr' />
       </ListItem>
-      <ListItem button component='a' href='https://goo.gl/maps/xqZPLa28KxB2'>
+      <ListItem button href='https://goo.gl/maps/xqZPLa28KxB2'>
         <ListItemIcon>
           <LocationOnIcon color='primary' />
         </ListItemIcon>
