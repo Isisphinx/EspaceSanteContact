@@ -1,5 +1,5 @@
 import React from 'react'
-import EspaceSanteContainer from '../components/container'
+import EspaceSanteCard from '../components/EspaceSanteCard'
 import favicon from '../images/favicon.png'
 import Helmet from 'react-helmet'
 import EspaceSanteAppBar from '../components/appBar'
@@ -14,7 +14,7 @@ const IndexPage = () => {
         <script src="chatScript.js"/>
       </Helmet>
       <EspaceSanteAppBar />
-      <EspaceSanteContainer />
+      <EspaceSanteCard />
     </main>
   )
 }
