@@ -16,8 +16,8 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {},
   large: {
-    width: theme.spacing(11),
-    height: theme.spacing(11),
+    width: theme.spacing(15),
+    height: theme.spacing(15),
   },
 }))
 
