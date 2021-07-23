@@ -23,19 +23,19 @@ export default function ContactList() {
         <ListItemText primary='Chat' />
       </ListItem>
       <Divider />
-      <ListItem button href='tel:+33320920367'>
+      <ListItem button component='a' href='tel:+33320920367'>
         <ListItemIcon>
           <CallIcon color='primary' />
         </ListItemIcon>
         <ListItemText primary='03 20 92 03 67' />
       </ListItem>
-      <ListItem button href='mailto:contact@espacesante.fr'>
+      <ListItem button component='a' href='mailto:contact@espacesante.fr'>
         <ListItemIcon>
           <MailIcon color='primary' />
         </ListItemIcon>
         <ListItemText primary='contact@espacesante.fr' />
       </ListItem>
-      <ListItem button href='https://goo.gl/maps/xqZPLa28KxB2'>
+      <ListItem button component='a' href='https://goo.gl/maps/xqZPLa28KxB2'>
         <ListItemIcon>
           <LocationOnIcon color='primary' />
         </ListItemIcon>
